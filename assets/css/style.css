@@ -1,0 +1,358 @@
+.header {
+    transition: all 0.4s linear;
+}
+
+.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all 0.4s linear;
+}
+
+.logo {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navmenu a {
+    text-transform: uppercase;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.active {
+    color: black;
+    text-decoration: none;
+    padding: 18px 15px;
+    color: #ffbb27;
+}
+
+.menu {
+    color: black;
+    text-decoration: none;
+    padding: 18px 15px;
+    transition: all 0.3s linear;
+}
+
+.social-link {
+    padding-right: 15px;
+}
+
+.search {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s linear;
+    border: none;
+}
+
+.heart {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+.shopping {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+.menu-line {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+.bg-img {
+    width: fit-content;
+    margin-top: 93px;
+    margin-left: 90px;
+}
+
+.bg-color {
+    background-color: #F6F6F6;
+}
+
+header {
+    background-color: white;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-color: #F6F6F6;
+}
+
+.hero img {
+    top: 25%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 3;
+}
+
+.text {
+    max-width: 600px;
+    padding: 162px 0 103px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.title {
+    display: block;
+    color: #818182;
+    margin: 0 0 12px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.lighting {
+    color: #3b3b3b;
+    margin: 0 0 -7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 65px;
+    line-height: 68px;
+}
+
+.text h2 {
+    color: #7a7a7a;
+    margin: 0 0 12px;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 54px;
+}
+
+.txt {
+    color: #818182;
+    max-width: 345px;
+    padding: 5px 0 0;
+    font-style: italic;
+    margin: 0 auto 81px;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.shop {
+    color: #818182;
+    padding: 0 10px;
+    margin: 0 0 20px;
+    font-weight: bold;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 18px;
+    transition: all 0.4s linear;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.chair {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.chair {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chair::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+}
+
+.chair .container {
+    position: relative;
+    z-index: 3;
+}
+
+.chair img {
+    z-index: 1;
+}
+
+.chair img {
+    width: 100%;
+    display: block;
+}
+
+.chair-box {
+    width: 100%;
+    height: 515px;
+    padding: 31px 26px 20px 41px;
+    background-image: url("https://htmlbeans.com/html/schon/images/banner/img01.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.chair-box h2 {
+    margin: 0 0 3px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 4.6px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #8694B5;
+}
+
+.btn-shop {
+    color: #878787;
+    font-size: 15px;
+    margin: 40px 0 0;
+    line-height: 16px;
+    text-decoration: none;
+    letter-spacing: -0.8px;
+    text-transform: uppercase;
+    transition: all 0.4s linear;
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.arrow {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #878787;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.btn-shop span {
+    margin: 0 11px 0 0;
+}
+
+.discount {
+    width: 130px;
+    height: 130px;
+    background-color: #EED24C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 110px;
+}
+
+.discount span {
+    font-size: 37px;
+    font-weight: bold;
+}
+
+.table-box {
+    width: 190%;
+    height: 240px;
+    background-image: url("https://htmlbeans.com/html/schon/images/banner/img02.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 31px 26px 20px 41px;
+}
+
+.table-box h2 {
+    margin: 0 0 3px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 4.6px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #8694B5;
+}
+
+.price {
+    display: block;
+    color: #9f9f9f;
+    letter-spacing: -1.5px;
+    font-size: 17px;
+    line-height: 23px;
+    padding: 27px 0 0;
+}
+
+.box {
+    width: 190%;
+    height: 250px;
+    background-image: url("https://htmlbeans.com/html/schon/images/banner/img03.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 31px 26px 20px 41px;
+}
+
+.box h2 {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 3px;
+    text-transform: none;
+    letter-spacing: 4.9px;
+    color: #8694B5;
+}
+
+.lamp {
+    width: 100%;
+    height: 515px;
+    padding: 31px 26px 20px 41px;
+    background-image: url("https://htmlbeans.com/html/schon/images/banner/img04.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.lamp h2 {
+    margin: 0 0 3px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 4.6px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #8694B5;
+}
+
+.star {
+    text-decoration: none;
+    list-style: none;
+    line-height: 1;
+    font-size: 20px;
+    color: #EED24C;
+    margin-left: 10px;
+}
+
+.puff-chair {
+    display: block;
+    margin-left: 30px;
+    color: #757575;
+    text-transform: capitalize;
+    font: 600 14px / 20px "Source Sans Pro", sans-serif;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.euro {
+    display: block;
+    color: #010101;
+    font: 600 17px / 20px "Source Sans Pro", sans-serif;
+    margin-left: 30px;
+}
+
+.cart-item{
+    margin-top: 120px;
+    font-size: 50px;
+}

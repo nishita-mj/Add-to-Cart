@@ -245,6 +245,7 @@ header {
 .discount {
     width: 130px;
     height: 130px;
+    color: white;
     background-color: #EED24C;
     display: flex;
     align-items: center;

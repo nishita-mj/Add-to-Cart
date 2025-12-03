@@ -2,49 +2,49 @@ let product = [
     {
         id: 1,
         name: "Puff chair",
-        price: "₹ 28,700",
+        price: 287,
         imageURL: "https://htmlbeans.com/html/schon/images/products/img01.jpg"
     },
     {
         id: 2,
         name: "Bombi chair",
-        price: "₹ 39,900",
+        price: 399,
         imageURL: "https://htmlbeans.com/html/schon/images/products/img02.jpg"
     },
     {
         id: 3,
         name: "Wood chair",
-        price: "₹ 19,800",
+        price: 198,
         imageURL: "https://htmlbeans.com/html/schon/images/products/img03.jpg"
     },
     {
         id: 4,
         name: "Bombi chair",
-        price: "₹ 20,000",
+        price: 200,
         imageURL: "https://htmlbeans.com/html/schon/images/products/img04.jpg"
     },
     {
         id: 5,
         name: "Bombi chair",
-        price: "₹ 20,000",
+        price: 200,
         imageURL: "https://htmlbeans.com/html/schon/images/products/img05.jpg"
     },
     {
         id: 6,
         name: "Easy chair with armrests",
-        price: "₹ 287,00",
+        price: 287,
         imageURL: "https://htmlbeans.com/html/schon/images/products/img06.jpg"
     },
     {
         id: 7,
         name: "Upholstered chair",
-        price: "₹ 399,00",
+        price: 399,
         imageURL: "https://htmlbeans.com/html/schon/images/products/img07.jpg"
     },
     {
         id: 8,
         name: "Trestle-based chair",
-        price: "₹ 198,00",
+        price: 198,
         imageURL: "https://htmlbeans.com/html/schon/images/products/img08.jpg"
     }
 ]
@@ -54,19 +54,26 @@ let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
 const productRow = document.getElementById("productRow");
 
-function addToCart(productId){
-    const products =  product.find((pro) => {
+function addToCart(productId) {
+    const products = product.find((pro) => {
         return pro.id === productId;
     })
 
     products.quantity = 1;
 
     cart.push(products);
-    localStorage.setItem("cart",JSON.stringify(cart))
+    localStorage.setItem("cart", JSON.stringify(cart))
     UpdateCart();
+
+    Swal.fire({
+        title: "Added to Cart!",
+        icon: "success",
+        timer: 1500,
+        showConfirmButton: false
+    });
 }
 
-function UpdateCart(){
+function UpdateCart() {
     cartCount.innerHTML = cart.length;
 }
 

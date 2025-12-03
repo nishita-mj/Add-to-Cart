@@ -18,7 +18,7 @@
 
     <header class="header d-flex align-items-center fixed-top  navbar-expand-xl" id="header">
         <div class="container-fluid position-relative d-flex align-items-center justify-content-between m-3">
-            <a href="./index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+            <a href="./main.html" class="logo d-flex align-items-center me-auto me-xl-0">
                 <img src="./assets/images/mt-logo.png" alt="Logo">
             </a>
 
@@ -58,8 +58,10 @@
                     <a href="" class="heart" target="_blank">
                         <i class="ri-heart-line"></i>
                     </a>
-                    <a href="./cart.html" class="shopping position-relative" target="_blank">
-                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-black mt-4 my-3" id="count">
+                    <a href="./cart.html" class="shopping position-relative" target="">
+                        <span
+                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-black mt-4 my-3"
+                            id="count">
                             0
                         </span>
                         <i class="ri-shopping-bag-line"></i>
@@ -67,9 +69,6 @@
                     <a href="" class="menu-line" target="_blank">
                         <i class="ri-menu-3-line"></i>
                     </a>
-                    <button class="btn menu-btn d-lg-none d-block mt-2" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#sidebar" aria-controls="offcanvasExample">
-                        <i class="ri-menu-line"></i>
                     </button>
                 </div>
             </nav>
@@ -163,269 +162,13 @@
         <section>
             <div class="container">
                 <div class="row" id="productRow">
-                    <!-- <div class="col-xl-3 col-md-4 col-sm-6">
-                        <div>   
-                            <a href="">
-                                <img src="https://htmlbeans.com/html/schon/images/products/img01.jpg" alt="">
-                            </a>
-                            <ul class="star d-flex mx-4">
-                                <li>
-                                    <i class="ri-star-fill"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-fill"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-fill"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-line"></i>
-                                </li>
-                            </ul>
-                            <div class="txt mx-4">
-                                <strong class="">
-                                    <a href="product-detail.html" tabindex="0" class="puff-chair">
-                                        Puff Chair
-                                    </a>
-                                </strong>
-                                <span class="euro">
-                                    <i class="ri-money-euro-circle-line"></i>
-                                    <span class="">287,00</span>
-                                </span>
-                                <a href="" class="btn btn-dark mx-3 mt-3">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-4 col-sm-6">
-                        <div>
-                            <a href="">
-                                <img src="https://htmlbeans.com/html/schon/images/products/img02.jpg" alt="">
-                            </a>
-                            <ul class="star d-flex mx-4">
-                                <li>
-                                    <i class="ri-star-fill"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-line"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-line"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-line"></i>
-                                </li>
-                            </ul>
-                            <div class="txt mx-4">
-                                <strong class="">
-                                    <a href="product-detail.html" tabindex="0" class="puff-chair">
-                                        Bombi Chair
-                                    </a>
-                                </strong>
-                                <span class="euro">
-                                    <i class="ri-money-euro-circle-line"></i>
-                                    <span class="">399,00</span>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-4 col-sm-6">
-                        <div>
-                            <a href="">
-                                <img src="https://htmlbeans.com/html/schon/images/products/img03.jpg" alt="">
-                            </a>
-                            <ul class="star d-flex mx-4">
-                                <li>
-                                    <i class="ri-star-fill"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-fill"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-line"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-line"></i>
-                                </li>
-                            </ul>
-                            <div class="txt mx-4">
-                                <strong class="">
-                                    <a href="product-detail.html" tabindex="0" class="puff-chair">
-                                        Wood Chair
-                                    </a>
-                                </strong>
-                                <span class="euro">
-                                    <i class="ri-money-euro-circle-line"></i>
-                                    <span class="">198,00</span>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-4 col-sm-6">
-                        <div>
-                            <a href="">
-                                <img src="https://htmlbeans.com/html/schon/images/products/img04.jpg" alt="">
-                            </a>
-                            <ul class="star d-flex mx-4">
-                                <li>
-                                    <i class="ri-star-fill"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-fill"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-fill"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-line"></i>
-                                </li>
-                            </ul>
-                            <div class="txt mx-4">
-                                <strong class="">
-                                    <a href="product-detail.html" tabindex="0" class="puff-chair">
-                                        Bombi Chair
-                                    </a>
-                                </strong>
-                                <span class="euro">
-                                    <i class="ri-money-euro-circle-line"></i>
-                                    <span class="">200,00</span>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-4 col-sm-6">
-                        <div>
-                            <a href="">
-                                <img src="https://htmlbeans.com/html/schon/images/products/img05.jpg" alt="">
-                            </a>
-                            <ul class="star d-flex mx-4">
-                                <li>
-                                    <i class="ri-star-fill"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-fill"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-fill"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-line"></i>
-                                </li>
-                            </ul>
-                            <div class="txt mx-4">
-                                <strong class="">
-                                    <a href="product-detail.html" tabindex="0" class="puff-chair">
-                                        Bombi Chair
-                                    </a>
-                                </strong>
-                                <span class="euro">
-                                    <i class="ri-money-euro-circle-line"></i>
-                                    <span class="">200,00</span>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-4 col-sm-6">
-                        <div>
-                            <a href="">
-                                <img src="https://htmlbeans.com/html/schon/images/products/img06.jpg" alt="">
-                            </a>
-                            <ul class="star d-flex mx-4">
-                                <li>
-                                    <i class="ri-star-fill"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-fill"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-fill"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-line"></i>
-                                </li>
-                            </ul>
-                            <div class="txt mx-4">
-                                <strong class="">
-                                    <a href="product-detail.html" tabindex="0" class="puff-chair">
-                                        Easy Chair with Armrests
-                                    </a>
-                                </strong>
-                                <span class="euro">
-                                    <i class="ri-money-euro-circle-line"></i>
-                                    <span class="">287,00</span>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-4 col-sm-6">
-                        <div>
-                            <a href="">
-                                <img src="https://htmlbeans.com/html/schon/images/products/img07.jpg" alt="">
-                            </a>
-                            <ul class="star d-flex mx-4">
-                                <li>
-                                    <i class="ri-star-fill"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-fill"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-line"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-line"></i>
-                                </li>
-                            </ul>
-                            <div class="txt mx-4">
-                                <strong class="">
-                                    <a href="product-detail.html" tabindex="0" class="puff-chair">
-                                        Upholstered chair
-                                    </a>
-                                </strong>
-                                <span class="euro">
-                                    <i class="ri-money-euro-circle-line"></i>
-                                    <span class="">287,00</span>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-4 col-sm-6">
-                        <div>
-                            <a href="">
-                                <img src="https://htmlbeans.com/html/schon/images/products/img08.jpg" alt="">
-                            </a>
-                            <ul class="star d-flex mx-4">
-                                <li>
-                                    <i class="ri-star-fill"></i>    
-                                </li>
-                                <li>
-                                    <i class="ri-star-fill"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-fill"></i>
-                                </li>
-                                <li>
-                                    <i class="ri-star-line"></i>
-                                </li>
-                            </ul>
-                            <div class="txt mx-4">
-                                <strong class="">
-                                    <a href="product-detail.html" tabindex="0" class="puff-chair">
-                                        Trestle-based chair
-                                    </a>
-                                </strong>
-                                <span class="euro">
-                                    <i class="ri-money-euro-circle-line"></i>
-                                    <span class="">287,00</span>
-                                </span>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </section>
 
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./assets/js/script.js"></script>
 
 </body>

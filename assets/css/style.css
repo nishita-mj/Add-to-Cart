@@ -2,11 +2,6 @@
     transition: all 0.4s linear;
 }
 
-.scrolled {
-    background-color: rgba(0, 0, 0, 0.8);
-    transition: all 0.4s linear;
-}
-
 .logo {
     color: black;
     text-decoration: none;
@@ -86,11 +81,12 @@ header {
     width: 100%;
     min-height: 100vh;
     position: relative;
-    background-color: #F6F6F6;
+    /* background-color: #F6F6F6; */
 }
 
 .hero img {
-    top: 25%;
+    width: 1720px;
+    height: 665px;
     position: absolute;
     object-fit: cover;
     z-index: 1;
@@ -162,7 +158,6 @@ header {
 }
 
 .chair {
-    margin-top: 80px;
     margin-bottom: 80px;
 }
 
@@ -353,7 +348,7 @@ header {
     margin-left: 30px;
 }
 
-.cart-item{
+.cart-item {
     margin-top: 120px;
     font-size: 50px;
 }

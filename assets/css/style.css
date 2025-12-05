@@ -1,5 +1,7 @@
 .header {
     transition: all 0.4s linear;
+    padding: 0px;
+    margin: 0px;
 }
 
 .logo {
@@ -14,13 +16,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.active {
-    color: black;
-    text-decoration: none;
-    padding: 18px 15px;
-    color: #ffbb27;
 }
 
 .menu {
@@ -66,7 +61,6 @@
 .bg-img {
     width: fit-content;
     margin-top: 93px;
-    margin-left: 90px;
 }
 
 .bg-color {
@@ -79,14 +73,11 @@ header {
 
 .hero {
     width: 100%;
-    min-height: 100vh;
     position: relative;
-    /* background-color: #F6F6F6; */
 }
 
 .hero img {
-    width: 1720px;
-    height: 665px;
+    width: 100%;
     position: absolute;
     object-fit: cover;
     z-index: 1;
@@ -159,6 +150,7 @@ header {
 
 .chair {
     margin-bottom: 80px;
+    margin-top: 150px;
 }
 
 .chair {
@@ -351,4 +343,93 @@ header {
 .cart-item {
     margin-top: 120px;
     font-size: 50px;
+}
+
+.small-products {
+    padding: 70px 0 65px;
+}
+
+.wooden-chair {
+    display: block;
+    color: #959596;
+    margin: 0 0 5px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    font-size: 16px;
+
+}
+
+.stars {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 13px;
+    list-style: none;
+    color: #C8A760;
+}
+
+.off {
+    opacity: 0.6;
+    color: #252528;
+    margin: 0 13px 0 0;
+    font-size: 16px;
+}
+
+.pricing {
+    color: #252528;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+.wooden-chair:hover {
+    color: rgb(217, 57, 57);
+}
+
+.footer-section {
+    background-color: #F6F6F6;
+    padding: 76px 0 70px;
+}
+
+.logo-2 {
+    margin-bottom: 23px;
+}
+
+.margin {
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.icons i {
+    color: #7F7F7F;
+}
+
+.twitter {
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0 0 35px;
+    font-weight: 700;
+    color: #575757;
+}
+
+.news-column {
+    margin: 0 0 26px;
+    color: #a0a0a0;
+}
+
+.twitter-icon {
+    float: left;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 4px 10px 0 0;
+}
+
+.product-btn {
+    margin: 1px;
+    margin-bottom: 3px;
+    padding: 1px 15px;
+    border-radius: 25px;
+    border: 1px solid #c1c1c1;
+    color: #7F7F7F;
 }
